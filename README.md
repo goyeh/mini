@@ -1,7 +1,8 @@
-# util [[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# util ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # minigo
 Minimal Go library of functions aimed at keeping code size down and enhancing Go use.
+to use this library ``` go get github.com/goyeh/mini
 
 ## Dependencies
 
