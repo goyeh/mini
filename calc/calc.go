@@ -3,6 +3,7 @@ package calc
 import (
     "bytes"
     "fmt"
+    "github.com/goyeh/mini/logic"
     "strconv"
 )
 
@@ -47,7 +48,7 @@ func Divide(a int, b int) (Divide string) {
 
     value := 0
     remainder := a
-    for !exists(remainderIndexMap, remainder) {
+    for !logic.Exists(remainderIndexMap, remainder) {
         remainderIndexMap[remainder] = len(values)
 
         remainder *= 10
