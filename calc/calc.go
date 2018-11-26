@@ -4,7 +4,6 @@ import (
     "bytes"
     "fmt"
     "strconv"
-    "logic"
 )
 
 const (
@@ -28,7 +27,6 @@ func PrintDivide(a int, b int) ( printDivide string) {
     if b == 0 {
         printDivide = errorResult
     }
-
     value := a / b
     remainder := a % b
     printDivide = fmt.Sprintf(resultFormat, value, Divide(remainder, b))

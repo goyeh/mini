@@ -35,8 +35,8 @@ func FirstNonNil(values ...interface{}) interface{} {
 }
 
 // If the key is in the map return true
-func exists(myMap map[int]int, key int) (exist bool) {
-    _, exist = myMap[key]
+func exists(myMap map[int]int, key int) (exists bool) {
+    _, exists = myMap[key]
     return
 }
 
